@@ -15,20 +15,18 @@ To run this app, you need JDK 8+, and a Java EE container, such as Tomcat 8+
 All the jars/libs are managed by Maven.
 
 ### Installing
-Method One:
-If you use an IDE, such as Eclips.
+Method One: If you use an IDE, such as Eclips.
 1. import this project from Github;
 2. right-click the project -> Maven -> Update Project (maven will add all dependencies, jars);
 3. right-click the project and do a "Run As" -> "Run on server"(you need to add a local server, such as Tomcat 8+).
 
-Method Two
-In Eclipse IDE,
+Method Two: In Eclipse IDE,
 1. import this project from Github;
 2. right-click the project -> Maven -> Update Project (maven will add all dependencies, jars);
 3. right-click the project -> Run as -> Maven install (this will build the war file);
 4. Deploy the war file to a Java EE container.
 
-Method Three
+Method Three: directly deploy
 1. download the war file from GitHub
 2. Deploy the war file to a Java EE container.
 
