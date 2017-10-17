@@ -16,7 +16,7 @@ All the jars/libs are managed by Maven.
 
 ### Installing
 Method One: directly deploy
-1. download the war file from GitHub
+1. download the war file from GitHub,  maze-demo/maze-demo/target/maze-demo-1.0-SNAPSHOT.war
 2. Deploy the war file to a Java EE container.
 
 Method Two: If you use an IDE, such as Eclips.
